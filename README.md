@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is our code for the paper (Tokenization counts:  the impact of tokenization on arithmetic in frontier LLMs)[TODO]. It contains all files needed to reproduce the figures in the main paper, as well as raw CSV's with model responses in `results/`. Please direct any questions and/or correspondence to aaditya.singh.21@ucl.ac.uk.
+This is our code for the paper (Tokenization counts:  the impact of tokenization on arithmetic in frontier LLMs)[TODO]. It contains all files needed to reproduce the figures in the main paper, as well as raw results CSV's in `results/`. Please direct any questions and/or correspondence to aaditya.singh.21@ucl.ac.uk.
 
 ## Codebase structure
 
