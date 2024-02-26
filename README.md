@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is our code for the paper (Tokenization counts:  the impact of tokenization on arithmetic in frontier LLMs)[TODO]. It contains all files needed to reproduce the figures in the main paper, as well as raw results CSV's in `results/`. Please direct any questions and/or correspondence to aaditya.singh.21@ucl.ac.uk.
+This is our code for the paper (Tokenization counts:  the impact of tokenization on arithmetic in frontier LLMs)[https://arxiv.org/abs/2402.14903]. It contains all files needed to reproduce the figures in the main paper, as well as raw results CSV's in `results/`. Please direct any questions and/or correspondence to aaditya.singh.21@ucl.ac.uk.
 
 ## Codebase structure
 
@@ -57,7 +57,7 @@ Below, we detail all the columns that'll exist in these data frames as they're s
 
 ### Analyzing: `utils.py` + `paper_figures.ipynb`
 
-`paper_figures.ipynb` can be used to reproduce all figures in our (paper)[TODO]. `utils.py` contains all our error analysis code and is heavily used by `paper_figures.ipynb`. Our analysis pipeline contains of a post processing step (relying on `utils.post_process_df` which relies on `utils.post_process_row`) and then an error analysis step (`utils.add_error_analysis` which relies on `analyze_row_error`). The error analysis step assumes a tokenization direction, so care should be taken when passing dataframes containing both L2R and R2L tokenized rows. Examples can be found in `paper_figures.ipynb`.
+`paper_figures.ipynb` can be used to reproduce all figures in our (paper)[https://arxiv.org/abs/2402.14903]. `utils.py` contains all our error analysis code and is heavily used by `paper_figures.ipynb`. Our analysis pipeline contains of a post processing step (relying on `utils.post_process_df` which relies on `utils.post_process_row`) and then an error analysis step (`utils.add_error_analysis` which relies on `analyze_row_error`). The error analysis step assumes a tokenization direction, so care should be taken when passing dataframes containing both L2R and R2L tokenized rows. Examples can be found in `paper_figures.ipynb`.
 
 Post-processing, columns added:
 - Facts about the problem:
